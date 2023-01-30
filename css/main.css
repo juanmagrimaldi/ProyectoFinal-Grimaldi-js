@@ -214,7 +214,7 @@ main {
 
 .carrito-acciones-total {
     display: flex;
-    background-color: rgb(235, 229, 229);
+    background-color: rgb(223, 163, 123);
     padding: 1rem;
     color: rgb(168, 105, 2);
     text-transform: uppercase;
@@ -225,7 +225,7 @@ main {
 
 .carrito-acciones-comprar {
     border: 0;
-    background-color: rgb(187, 104, 10);
+    background-color: rgb(255, 167, 67);
     padding: 1rem;
     color: white;
     text-transform: uppercase;

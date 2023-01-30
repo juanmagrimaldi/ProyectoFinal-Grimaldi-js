@@ -75,6 +75,22 @@ if(productosEnCarritoLS) {
 }
 
 function agregarAlCarrito(e) {
+
+    Toastify({
+        text: `PRODUCTO AGREGADO AL CARRITO`,
+        duration: 3000,
+        gravity: "top", 
+        position: "center", 
+        stopOnFocus: true,
+        style: {
+          background: "linear-gradient(to right, rgb(248, 158, 56), rgb(216, 146, 99))",
+          borderRadius: "1rem",
+          color: "black",
+          fontSize: ".8rem",
+        },
+        onClick: function(){} // Callback after click
+      }).showToast();
+      
     const idBoton = e.currentTarget.id;
     const productoAgregado = productos.find(producto => producto.id === idBoton);
 
